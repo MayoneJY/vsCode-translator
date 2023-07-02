@@ -1,61 +1,64 @@
-# translator README
+# vsCode translator extension
 
-This is the README for your extension "translator". After writing up a brief description, we recommend including the following sections.
+Visual Studio Code Extension Translator입니다.
+변수명이나 함수명을 적을 때 한글로 적고 단축키를 누르면 번역해서 카멜 기법 또는 스네이크 기법으로 변환해주는 도구입니다.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+<!-- Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
 For example if there is an image subfolder under your extension project workspace:
 
 \!\[feature X\]\(images/feature-x.png\)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow. -->
+
+예정
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+<!-- If you have any requirements or dependencies, add a section describing those and how to install and configure them. -->
+예정
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+<!-- Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
 For example:
 
 This extension contributes the following settings:
 
 * `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+* `myExtension.thing`: Set to `blah` to do something. -->
+예정
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+<!-- Calling out known issues can help limit users opening duplicate issues against your extension. -->
 
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+### 0.0.1
+번역기능을 추가했습니다.
+`src/extension.ts`의 `temp`에 따라 카멜 기법 또는 스네이크 기법으로 번역됩니다.
+```ts
+temp = 1 /* 카멜 기법 */
+temp = 2 /* 스네이크 기법 */
+```
+추후 설정을 통해 변경되도록 수정할 예정
 
 ---
 
 ## Following extension guidelines
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+<!-- Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines) -->
+예정
 
-## Working with Markdown
+<!-- ## Working with Markdown
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
@@ -69,3 +72,4 @@ You can author your README using Visual Studio Code. Here are some useful editor
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+ -->
